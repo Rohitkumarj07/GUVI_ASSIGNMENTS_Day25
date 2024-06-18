@@ -1,0 +1,107 @@
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#0DAA7D;
+  font-family: cursive;
+}
+
+.body{
+  background-color: rgb(71, 92, 131);
+}
+
+.todoname,.tododesc{
+  width:500px;
+  border-color: #A3D6C5;
+  margin:20px;
+  height:30px;
+  border-radius: 10px;
+  font-family:cursive;
+
+}
+
+.addtodo{
+  width:200px;
+  height:30px;
+  border-radius: 10px;
+  background-color: #13AD89;
+  color:white;
+  font-family:cursive;
+}
+
+.filter{
+  
+  font-family:cursive;
+}
+
+
+
+.mytodo{
+  display:flex;
+  justify-content: start;
+  
+  font-family:cursive;
+}
+
+.changestatus{
+  background-color:rgb(17, 226, 198);
+  margin:10px;
+  font-family:cursive;
+  padding:5px;
+  color:white;
+  border-radius: 5px;
+}
+.changestatus:hover{
+  cursor: pointer;
+}
+
+.editcolor {
+  background-color: #13AD89;
+  margin: 10px;
+  font-family: cursive;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s; 
+}
+
+.editcolor:hover {
+  background-color: #0f8f6e; 
+  cursor: pointer;
+}
+
+
+.deletecolor{
+  background-color: red;
+  margin:10px;
+  font-family:cursive;
+  padding:5px;
+  color:white;
+  border-radius: 5px;
+}
+.deletecolor:hover{
+  cursor: pointer;
+}
+
+.status{
+  color:rgb(17, 226, 198);
+  font-family:cursive;
+}
+
+.nametodo{
+  font-family:cursive;
+}
+
+.desctodo{
+  font-family:cursive;
+  
+}
+
+.card{
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  width:500px;
+  background-color:rgb(204,245,211);
+  
+}
